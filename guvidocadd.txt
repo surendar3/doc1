@@ -1,0 +1,208 @@
+Problem : we can’t get fresh vegetables and fruits at fair price and even mostly are not even organic .
+Solution : so we create a platform to link   farmer to consumer directly 
+ABSTRACT:
+            Restricting users by geography
+By  Using this consumers can get fresh vegetables and fruits 
+            Door step delivery to make it comfortable 
+    Consumers can avoid paying much and farmers can get the reasonable pay 
+Types of users :
+Farmers 
+Consumers 
+Delivering people 
+Admin 
+Module:
+Farmer’s module:
+Farmers have to register to get a clear view on this application and service 
+If the terms and condition are okay with them they can choose their membership
+ They can pay and get the premium cold storage facility if they want 
+Farmer has to make a profile 
+    Farmers can get low interest loans from our partner banks 
+    Farmers can add the list of vegetables and fruits in the application 
+    Farmers can interact with customers anytime when customers are available 
+Farmers need to prove their products organic and pest free 
+Once everything is clear they can use the application and trade 
+Delivery person module :
+He/she needsto register to get the access 
+He/shemust be available for the allottedtimeperiod
+      He/she must have a two wheeler to get the access 
+      He/she will get paid weekly on the work basis 
+ Customer module :
+       Customer has to register in the app to enjoy the service 
+Customers has to accept the terms and condition to go further 
+Customer need to update their details ,address and   further clarifications .
+Customer can get 24*7 support from our side 
+      Customer can order at any time 
+      Customer can cancel order at any time
+      Once they agree with all conditions customer can order using the app 
+
+Functionalities:
+Our plan is to start online vegetable market .
+Name of the project : Go Nel
+Types of services:
+1.vegetables and spinach varieties 
+2.fruits 
+Items:
+    Vegetables :
+*Potato
+                         *Country tomato
+Spinach :
+                       *Savoy spinach 
+                        *Tasman spinach 
+     Fruits :
+                      *Orange 
+                      *Mango 
+Service to: customers 
+
+WorkFlow:
+Farmer’ssModule:
+
+1.Signup Page:
+
+# Register/Sign up -> Send otp -> Confirm(Mobile number) / Hide password
+
+# Email check/Phone No check->On leaving Textbox
+
+# Login
+
+# Forgot Password -> Send Otp -> Confirm -> Change Password
+
+# Terms and conditions
+
+# Help
+
+# Google account
+
+# Facebook account
+
+# Captcha -> Checkbox clicking(Im not a Robot)
+
+# Change Language
+
+# Skip option
+
+# Referral 
+2.)farmers goods uploading page 
+# vegetables >enter kg >enter price per kg >submit 
+#fruits >enter kg >enter price per kg >submit
+#conatct number 
+#home 
+#back 
+Customer page :
+# Register/Sign up -> Send otp -> Confirm(Mobile number) / Hide password
+
+
+
+# Email check/Phone No check->On leaving Textbox
+
+
+
+# Login
+
+
+
+# Forgot Password -> Send Otp -> Confirm -> Change Password
+
+
+
+# Terms and conditions
+
+
+
+# Help
+
+
+
+# Google account
+
+
+
+# Facebook account
+
+
+
+# Captcha -> Checkbox clicking(Im not a Robot)
+
+
+
+# Change Language
+
+
+
+# Skip option
+
+
+
+# Referral 
+
+Product buying ppage:
+#select buyers 
+#select product >enter kgs
+#enter delivery location 
+#next 
+Payment page :
+#choose mode of payment 
+#enter the details 
+#submit 
+#abort 
+#home 
+
+
+Package Go_ Nel
+{
+   Class vegetables
+     {
+Public void potato ()
+       {
+          Print(50);
+}
+         Public void country tomato ()
+{
+          Print(50)
+        }
+     Class spinach 
+
+     {
+
+        Public void savoy spinach  ()
+
+       {
+
+          Print(50);
+
+        }
+
+         Public void Tasman_ spinach()
+
+        {
+
+          Print(50)
+
+        }
+
+Class fruits 
+
+     {
+
+        Public void orange()
+
+       {
+
+          Print(50);
+
+        }
+
+         Public void mango()
+
+        {
+
+          Print(50)
+
+        }
+     Class order 
+    {
+      Customers=New fruits();
+Customers.orange();
+    }
+}
+Output:
+Bill: 50
